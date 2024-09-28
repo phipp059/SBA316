@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Football Fan Page</title>
+    <link rel="stylesheet" href="sba316.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the NFL Fan Page!</h1>
+    </header>
+
+    <section>
+        <form id="subscribeForm">
+            <h2>Subscribe to our Newsletter</h2>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p id="subscribeMessage"></p>
+    </section>
+
+    <section id="content">
+        <h2>Teams</h2>
+        <ul id="teams">
+            <li class="team">Green Bay Packers</li>
+            <li class="team">New England Patriots</li>
+            <li class="team">Kansas City Chiefs</li>
+        </ul>
+        <button id="addTeamButton">Add Favorite Team</button>
+    </section>
+
+    <section>
+        <h2>Upcoming Games</h2>
+        <p id="upcomingGame">Green Bay Packers vs Chicago Bears - Sunday</p>
+        <button id="updateGameButton">Update Game Info</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Emry Web Services</p>
+    </footer>
+
+    <script src="sba316.js"></script>
+</body>
+</html>
